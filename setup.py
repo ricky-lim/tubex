@@ -11,7 +11,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="tubex",
-    version="0.2",
+    version="0.1.1",
     author="Ricky Lim",
     author_email="rlim.email@gmail.com",
     description="Command Line Interface to download and tag MP3 from youtube",

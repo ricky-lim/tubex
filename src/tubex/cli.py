@@ -52,7 +52,7 @@ pass_config = click.make_pass_decorator(Config, ensure=True)
 @pass_config
 def cli(config, outdir):
     if outdir is None:
-        outdir = Path.cwd() / "pytube_out"
+        outdir = Path.cwd() / "tubex_out"
     config.outdir = str(Path(outdir))
     config.opts["outtmpl"] = f"{config.outdir}/%(title)s.%(ext)s"
 
