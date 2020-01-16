@@ -1,0 +1,3 @@
+youtube-dl==2020.1.15
+eyeD3==0.9
+Click==7.0
