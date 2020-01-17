@@ -11,10 +11,10 @@ with open("README.md", "r") as fh:
 
 setup(
     name="tubex",
-    version="0.1.1",
+    version="0.2.0",
     author="Ricky Lim",
     author_email="rlim.email@gmail.com",
-    description="Command Line Interface to download and tag MP3 from youtube",
+    description="Command Line Interface to download MP3 from youtube and MP4 from oreilly",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ricky-lim/tubex",
