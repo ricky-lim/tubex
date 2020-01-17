@@ -4,7 +4,7 @@ lint:
 clean:
 	rm -rf dist/ build/
 
-package:
+package: clean
 	python setup.py sdist bdist_wheel
 
 upload: clean package
