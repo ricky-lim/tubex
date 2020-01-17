@@ -9,7 +9,10 @@ tubex --username <username> --password <password> download-oreilly <oreilly_lear
 
 ## Example
 ```bash
+
+# To learn more about pipx: https://github.com/pipxproject/pipx
 $ pipx install tubex
+$ pipx upgrade tubex
 
 # Download mp3
 $ tubex download-mp3 \
