@@ -1,6 +1,6 @@
 # Tubex
 
-Command Line Interface to download mp3 from youtube and mp4 from oreilly.
+A simple Command Line Interface to download mp3 from youtube and mp4 from oreilly.
 
 ```
 tubex download-mp3 <youtube_playlist_url> --album <album_name> --artist <artist_name>
@@ -28,7 +28,6 @@ $ tubex --username <username> --password <password> \
 
 # Enjoy learning
 $ vlc tubex_out/Modern_Python_LiveLessons_-_Big_Ideas_and_Little_Code_in_Python/
-
 
 ```
 
