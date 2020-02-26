@@ -4,3 +4,4 @@ __pycache__/
 tubex_out
 build/
 dist/
+.eggs
