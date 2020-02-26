@@ -1,10 +1,7 @@
 from setuptools import setup, find_packages
 
-requirements = [
-    'youtube-dl==2020.1.15',
-    'click==7.0',
-    'eyeD3==0.9'
-]
+with open('requirements.txt', 'rt') as r:
+    install_requires = r.read()
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -20,7 +17,7 @@ setup(
     url="https://github.com/ricky-lim/tubex",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    install_requires=requirements,
+    install_requires=install_requires,
     entry_points={"console_scripts": ["tubex=tubex.cli:cli"]},
     classifiers=[
         "Programming Language :: Python :: 3",
