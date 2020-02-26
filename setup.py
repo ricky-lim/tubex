@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="tubex",
-    version="0.2.0",
+    version="0.2.1",
     author="Ricky Lim",
     author_email="rlim.email@gmail.com",
     description="Command Line Interface to download MP3 from youtube and MP4 from oreilly",
