@@ -5,3 +5,5 @@ tubex_out
 build/
 dist/
 .eggs
+tmp
+venv
