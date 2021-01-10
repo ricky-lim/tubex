@@ -22,10 +22,13 @@ $ tubex download-mp3 \
 # Enjoy the music (e.g using `vlc`)
 $ vlc tubex_out
 
+# Download mp4 (video) 
+$ tubex --outdir 20210110 download-mp4 https://www.youtube.com/watch?v=aUrmkKDJ1t8
+
 # Download oreilly
 $ tubex --username <username> --password <password> \
     download-oreilly https://learning.oreilly.com/videos/modern-python-livelessons/9780134743400
-
+    
 # Enjoy learning
 $ vlc tubex_out/Modern_Python_LiveLessons_-_Big_Ideas_and_Little_Code_in_Python/
 

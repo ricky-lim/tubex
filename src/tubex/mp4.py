@@ -57,4 +57,5 @@ class MP4:
         audio_file, video_file = audio_thread.result, video_thread.result
         res = self.merge(audio_file=audio_file, video_file=video_file)
         self.cleanup(audio_file=audio_file, video_file=video_file)
+        self.config.info_log.set_description_str(f"{res}:finished")
         return res
